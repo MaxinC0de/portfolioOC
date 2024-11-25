@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "stretch";
+    src: url("./fonts/stretch.otf");
+}
+
+html {
+    background-color: #000;
+    height: 100vh;
+    border: white solid 1vw;
+}
+
+body {
+    font-family: "stretch";
+    padding: 1vw 3vw 3vw 3vw;
+}
+
+p {
+    color: white;
+}

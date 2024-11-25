@@ -1,0 +1,28 @@
+[
+    {
+        "about": "Après trois années de prépa commerce, j'ai décidé de me réorienter. Plus jeune je me suis intéressé à deux langages du développement front-end, à savoir HTML et CSS. Cela m'a inspiré dans ma reconversion et je me suis ainsi lancé dans l'univers du développement front-end. J'ai pu apprendre les règles élémentaires concernant le langage html, l'utilisation de css et comment allier programmation et styling grâce à SASS. J'ai enfin découvert des outils comme Node.js, Redux, MongoDB et bien évidemment le framework React qui sont des indispensables dans cet environnement là. Je suis ravi d'arriver à la fin de cette formation, je sais que l'apprentissage ne fait que commencer et j'espère pouvoir acquérir de l'expérience sans plus attendre."
+    },
+    {
+        "logos": ["/images/css.png", "/images/git.png", "/images/github.png", "/images/html5.png", "/images/js.png", "/images/mongo.png", "/images/nodejs.png", "/images/postman.png", "/images/react.png", "/images/redux.png", "/images/sass.png", "/images/tailwind.png"]
+    },
+    {
+        "projects": [
+            {
+                "name": "Kasa",
+                "keyWord": "React",
+                "description": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "stack": []
+            },
+            {
+                "name": "Argent Bank",
+                "keyWord": "Redux",
+                "description": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "stack": []
+            }
+        ]
+    }
+]

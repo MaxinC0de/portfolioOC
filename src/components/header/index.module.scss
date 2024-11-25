@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding: 0 1vw 1vw 1vw;
+    .contact {
+        background-color: white;
+        border-radius: 50px; 
+        padding: 10px 20px;
+        width: 100px;
+        margin-left: auto;
+    }
+    .anchor {
+        all: unset; 
+        cursor: pointer;
+        margin-left: auto;
+    }
+    .anchor:focus .contact {
+        background-color: red;
+        color: white;
+    }
+}
