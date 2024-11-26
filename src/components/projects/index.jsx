@@ -3,6 +3,10 @@ import styles from "./index.module.scss"
 
 export default function Projects({ onProjectClick }) {
 
+    const handleClick = (e) => {
+        e.preventDefault()
+    }
+
     const projects = data[2].projects
 
     const Separator = () => (
@@ -16,7 +20,7 @@ export default function Projects({ onProjectClick }) {
             {projects.map((project, index) => (
                 <>
                     <Separator />
-                    <a className={styles.anchors} href="#" onClick={() => onProjectClick(project)}>
+                    <a className={styles.anchors} href="#" onClick={(e) => {onProjectClick(project); handleClick(e)}}>
                         <div style={{display:"flex",alignItems:"center"}}>
                             <h2 className={styles.name}>{project.name}</h2>
 
