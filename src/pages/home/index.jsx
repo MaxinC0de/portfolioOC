@@ -14,19 +14,26 @@ export default function Home() {
         <div className={styles.separator}></div>
     )
 
-    const components = [About, Separator, Projects, Separator]
+    const [selectedProject, setSelectedProject] = useState(null)
 
-    const [selectedProject, setSelectedProject] = useState(Skills)
+    const handleProjectClick = (project) => {
+        setSelectedProject(project)
+    }
 
     return(
         <>
             <Header />
             <Title />
             <div className={styles.wrapper}>
-                {components.map((Component, index) => (
-                    <Component key={index} />
-                ))}
-                {selectedProject}
+                <About /> 
+                <Separator />
+                <div className={styles.responsiveWrapper}>
+                    <Projects onProjectClick={handleProjectClick}  />
+                    <Separator />
+                    {selectedProject ? (
+                        <ProjectDetails project={selectedProject} /> 
+                    ) : <Skills />}
+                </div> 
             </div>
         </>
     )

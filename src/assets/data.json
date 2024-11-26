@@ -10,18 +10,18 @@
             {
                 "name": "Kasa",
                 "keyWord": "React",
-                "description": "",
-                "githubUrl": "",
-                "websiteUrl": "",
-                "stack": []
+                "description": "Le projet Kasa a été ma première initiation à React. J'ai pu découvrir l'utilisation du framework et des composants. Le site Kasa permet à l'utilisateur de découvrir des biens immobiliers.",
+                "githubUrl": "https://github.com/MaxinC0de/KASA",
+                "websiteUrl": "https://vercel.com/maxinc0des-projects/kasa/7TFCR1M9qFPYwpJQQWkZc9toKzHn",
+                "stack": ["/images/css.png", "/images/js.png", "/images/nodejs.png", "/images/react.png", "/images/sass.png", "/images/html.png"]
             },
             {
                 "name": "Argent Bank",
                 "keyWord": "Redux",
-                "description": "",
-                "githubUrl": "",
-                "websiteUrl": "",
-                "stack": []
+                "description": "Grâce au projet Argent Bank j'ai découvert Redux ainsi que la gestion des opérations asynchrones grâce à Axios et auxaux Thunks. J'ai également manipulé Swagger pour l'écriture des Endpoints d'une API.",
+                "githubUrl": "https://github.com/MaxinC0de/P10",
+                "websiteUrl": "https://p10-nu.vercel.app/",
+                "stack": ["/images/css.png", "/images/js.png", "/images/react.png", "/images/redux.png", "/images/github.png", "/images/mongo.png"]
             }
         ]
     }
