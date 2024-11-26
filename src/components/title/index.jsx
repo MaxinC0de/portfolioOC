@@ -19,7 +19,7 @@ export default function Title() {
             </div>
             <div className="w-[90vw] overflow-hidden">
                 <h1 className={styles.title}>MAXIME <span style={{marginLeft:"2vw"}}>BRETON</span></h1>
-                <h1 style={{fontSize:"5vw",marginTop:"-4vh",marginBottom:"4vh"}} className={styles.title}><span className={styles.gradient}>FRONTEND</span> <br />DEVELOPER</h1>
+                <h1 style={{fontSize:"5vw",marginTop:"-4vh",marginBottom:"4vh"}} className={styles.title}><div className={styles.gradient}>FRONTEND</div><br />DEVELOPER</h1>
             </div>
             <div className={styles.mainContainer}>
                 <PlusSign />
